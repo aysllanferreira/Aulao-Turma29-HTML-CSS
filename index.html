@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Aulao Turma 29 - HTML / CSS</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bc1cc562be.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
+
+    <!--Cabecalho!-->
+
     <header id="cabecalho">
       <div id="title">
         <a href="#">Dani-Boy Portifolio</a>
@@ -18,7 +23,83 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
+      </nav>
     </header>
+
+     <!--Sobre mim!-->
+    <section id="about-me">
+      <img class="dani-boy" src="./img/daniboy.png" alt="Dani-boy">
+      <h1>Dani-boy</h1>
+      <h4>Marketeiro & Programador</h4>
+      <p>Olá, sou o Dani-boy, um cara legal que gosta muito de comer frutas e fazer piadas. Eu busco fazer piadas e as vezes trazer perturbação da ordem para que eu consiga causar o pensamento crítico para as pessoas que eu gosto, e no fim das contas eu acho isso tudo muito <strong>divertido</strong>!</p>
+      <p class="convite">Convido vocês pra conhecer minhas redes sociais!</p>
+      <div id="social-media">
+        <a class="linkedin" href="https://www.linkedin.com/in/daniel-cintori-a7872b139/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a class="instagram" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a class="facebook" href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a class="github" href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </section>
+
+     <!--Qualidades e Defeitos-->
+
+    <div class="main-color">
+      <section id="tracos">
+        <div id="qualidades">
+          <h1>Qualidades:</h1>
+          <ol>
+            <li>Responsavel</li>
+            <li>Empatico</li>
+            <li>Gente boa</li>
+            <li>Maluco</li>
+            <li>Futuro Embaixa</li>
+          </ol>
+        </div>
+
+        <div id="defeitos">
+          <h1>Defeitos:</h1>
+          <ul>
+            <li>Ansioso</li>
+            <li>Impaciente</li>
+            <li>Maluco</li>
+            <li>Doido</li>
+            <li>Louco</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+     <!--Artigo!-->
+     <section id="artigo">
+
+      <article class="left-side">Lorem ipsum <span>dolor</span> sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a</article>
+
+      <aside class="right-side">Lorem ipsum dolor sit amet, <span>consectetuer</span> adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis p</aside>
+
+     </section>
+
+      <!--Tabela!-->
+     <section id="tabela">
+      <table>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Profissão</th>
+        </tr>
+        <tr>
+          <td>Daniel</td>
+          <td>250</td>
+          <td>Programador</td>
+        </tr>
+      </table>
+     </section>
+
+      <!--Footer!-->
+      <footer id="footer">
+        <!--A Tag span eh dinamica! Ano preenchido com JavaScript no arquivo main.js-->
+        <h3>Site feito por: <a href="https://www.linkedin.com/in/aysllan-ferreira-61aa58228/" target="_blank">Aysllan Ferreira</a> - <span id="ano"></span></h3>
+      </footer>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>
