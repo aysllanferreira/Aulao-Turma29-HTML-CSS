@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -44,4 +48,118 @@
 
 #cabecalho nav ul li a:hover{
   color: #ec0062;
+}
+
+/* Sobre mim */
+
+#sobre-mim{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.dani-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px; 
+}
+
+.nome{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+}
+
+.subtitulo{
+  font-family: 'Shrikhand', cursive;
+  color: #ec0062;
+  margin-bottom: 30px;
+}
+
+.convite{
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: #ec0062;
+  font-weight: bolder;
+}
+
+#social-media{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link{
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.linkedin{
+  color: #0e76a8;
+}
+
+.linkedin:hover{
+  color: #004a72;
+}
+
+.instagram{
+  color: #e4405f;
+}
+
+.instagram:hover{
+  color: #992a3e;
+}
+
+.facebook{
+  color: #3b5998;
+}
+
+.facebook:hover{
+  color: #1d2f5b;
+}
+
+.github{
+  color: #333;
+}
+
+.github:hover{
+  color: black;
+}
+
+/* Traits - Tracos */
+
+#traits{
+  background-color: #f8f9fa;
+  margin-top: 30px;
+  padding: 16px 0;
+}
+
+#traits h1{
+  margin-bottom: 16px;
+  color: #ec0062;
+  font-size: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+#traits > div{
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+}
+
+#footer{
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
 }
